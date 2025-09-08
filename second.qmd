@@ -1,1 +1,4 @@
+---
+title: "Sec"
+---
 Hello this is the sceond page

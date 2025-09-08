@@ -2,20 +2,21 @@
   {
     "objectID": "second.html",
     "href": "second.html",
-    "title": "Project",
+    "title": "Sec",
     "section": "",
-    "text": "Hello this is the sceond page"
+    "text": "Hello this is the sceond page",
+    "crumbs": [
+      "Sec"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Project",
+    "title": "Tutorials",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nto learn\nddd",
     "crumbs": [
-      "Homee",
-      "Basics",
-      "Project"
+      "Tutorials"
     ]
   },
   {
@@ -23,17 +24,10 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\nwhat is it"
-  },
-  {
-    "objectID": "introduction.html",
-    "href": "introduction.html",
-    "title": "Project",
-    "section": "",
-    "text": "what",
+    "text": "About this site",
     "crumbs": [
-      "Homee",
-      "Introduction"
+      "About Me",
+      "About"
     ]
   }
 ]

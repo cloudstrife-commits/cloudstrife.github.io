@@ -3,24 +3,41 @@ project:
   output-dir: docs
 
 website:
-  title: "Project"
+  title: "ProjectX"
   navbar:
-    left:
-      - href: index.qmd
-        text: Homee
-      - about.qmd
-      - href: second.qmd
-        text: Sec
-  sidebar:
-    style: "docked"
+    background: primary
     search: true
-    contents:
-      - text: "Introduction"
-        href: introduction.qmd
-      - section: "Basics"
-        href: basics-summary.qmd
-        contents:
-          - index.qmd
+    left:
+      - text: "Tutorials"
+        href: index.qmd
+      - text: "About Me"
+        href: about.qmd
+      - second.qmd
+
+  sidebar:
+    - title: "Tutorials"
+      style: "docked"
+      background: light
+      contents:
+        - index.qmd
+        - section: "Project"
+          href: index.qmd
+          contents:
+            - href: tutorial-1.qmd
+              contents:
+              - basics-summary.qmd
+            - introduction.qmd
+
+    - title: "About me"
+      style: "docked"
+      background: light
+      contents:
+        - about.qmd
+        - tutorials.qmd
+        
+    - title: "Sec"
+      contents:
+        - second.qmd
 
 format:
   html:

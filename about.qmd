@@ -3,5 +3,3 @@ title: "About"
 ---
 
 About this site
-
-what is it 
