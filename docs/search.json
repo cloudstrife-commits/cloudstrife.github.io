@@ -1,0 +1,39 @@
+[
+  {
+    "objectID": "second.html",
+    "href": "second.html",
+    "title": "Project",
+    "section": "",
+    "text": "Hello this is the sceond page"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Project",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nto learn\nddd",
+    "crumbs": [
+      "Homee",
+      "Basics",
+      "Project"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\nwhat is it"
+  },
+  {
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "Project",
+    "section": "",
+    "text": "what",
+    "crumbs": [
+      "Homee",
+      "Introduction"
+    ]
+  }
+]

@@ -1,13 +1,26 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Project"
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Homee
       - about.qmd
+      - href: second.qmd
+        text: Sec
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Introduction"
+        href: introduction.qmd
+      - section: "Basics"
+        href: basics-summary.qmd
+        contents:
+          - index.qmd
 
 format:
   html:
